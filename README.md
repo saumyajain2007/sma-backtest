@@ -19,9 +19,7 @@ The project covers:
 A **moving average** smooths out price data by creating a constantly updated average price over a given time window.  
 For a time series of prices \( P_t \):
 
-\[
-SMA_n(t) = \frac{1}{n} \sum_{i=0}^{n-1} P_{t-i}
-\]
+SMAₙ(t) = (1/n) * Σ P_{t-i},   i = 0 … n-1
 
 - **Short SMA** (e.g., 20 days): reacts quickly to price changes, capturing short-term trends.  
 - **Long SMA** (e.g., 50 or 200 days): reacts slowly, capturing long-term trends.  
